@@ -9,3 +9,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 git clone https://github.com/Gowtham-200/wordpress-docker.git
 cd /
 sudo mv wordpress-docker/* /home/ec2-user/
+docker-compose up -d
